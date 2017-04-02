@@ -1,0 +1,156 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: verdana; }
+
+.nav {
+  background-color: black; }
+  .nav .nav-bar {
+    display: flex;
+    height: 50px; }
+    .nav .nav-bar .nav-bar-logo {
+      background: url(images/appdirect_logo.png) no-repeat;
+      height: 16px;
+      width: 20px;
+      margin-left: 160px;
+      padding: 15px 2px 0px 8px;
+      margin-top: 10px; }
+
+.nav-bar-primary {
+  display: flex;
+  list-style: none;
+  align-items: center; }
+  .nav-bar-primary .nav-bar-primary-item {
+    color: #9E9E9E;
+    margin-left: 26px; }
+    .nav-bar-primary .nav-bar-primary-item:hover {
+      background-color: #3E3B37;
+      padding: 16px 7px 15px 7px; }
+    .nav-bar-primary .nav-bar-primary-item .nav-bar-primary-item-link {
+      text-decoration: none;
+      color: #9E9E9E; }
+
+.nav-bar-secondary {
+  display: flex;
+  margin-left: 600px;
+  list-style: none;
+  align-items: center; }
+  .nav-bar-secondary .nav-bar-secondary-item {
+    text-decoration: none;
+    margin-left: 30px; }
+    .nav-bar-secondary .nav-bar-secondary-item:hover {
+      background-color: #3E3B37;
+      padding: 16px 7px 15px 7px; }
+    .nav-bar-secondary .nav-bar-secondary-item .nav-bar-secondary-item-link {
+      color: #9E9E9E;
+      text-decoration: none; }
+
+.box {
+  display: flex;
+  height: 690px; }
+  .box .output-box {
+    border: 1px solid black;
+    width: 350px;
+    margin-left: 75px;
+    margin-top: 17px;
+    padding-left: 30px; }
+    .box .output-box .output-box-list {
+      list-style: none; }
+    .box .output-box .output-box-heading {
+      text-align: center;
+      font-size: 30px; }
+
+.input-box {
+  border: 1px solid black;
+  width: 600px;
+  margin-left: 155px;
+  margin-top: 17px; }
+  .input-box .input-box-heading {
+    text-align: center;
+    font-size: 30px; }
+  .input-box .input-box-reset {
+    margin-left: 100px;
+    padding: 11 30 10 20;
+    color: white;
+    background: #5199e0;
+    margin-top: 25px; }
+  .input-box .input-box-register {
+    padding: 11 30 10 20;
+    margin-left: 80px;
+    color: white;
+    background: #1e981e; }
+
+.input-box-list {
+  list-style: none;
+  font-size: 10px; }
+  .input-box-list .input-box-list-item {
+    font-size: 20px;
+    margin-left: 15px; }
+    .input-box-list .input-box-list-item .input-box-list-item-bar {
+      margin: 9px 0px 4px 30px;
+      padding: 10px 30px 10px 30px; }
+
+.horizontal-line {
+  margin-left: 125;
+  margin-top: 30px;
+  margin-right: 202px; }
+
+.input-box-list-item-bar-fname {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-lname {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-padd {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-check {
+  margin: 0px 0px 9px 140px; }
+
+.input-box-list-item-bar-cadd {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-email {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-phn {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-pswd {
+  margin: 0px 20px 30px 0px; }
+
+.input-box-list-item-bar-cpswd {
+  margin: 0px 20px 30px 0px; }
+
+.footer {
+  display: flex;
+  margin-top: 20px; }
+  .footer .footer-logo {
+    background: url(images/appdirect_footer.png) no-repeat;
+    background-size: contain;
+    padding: 5px 8px;
+    margin-left: 155px; }
+  .footer .footer-text {
+    font-size: 12px;
+    margin-left: 7px;
+    color: #bbbbbb; }
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  margin-left: 285px; }
+  .footer-list .footer-list-item-dropdown {
+    font-size: 9px;
+    padding: 0px 7px;
+    color: #bbbbbb; }
+  .footer-list .footer-list-item {
+    font-size: 12px;
+    padding: 0px 7px;
+    color: #bbbbbb; }
+    .footer-list .footer-list-item .footer-list-item-link {
+      text-decoration: none;
+      color: #bbbbbb; }
+    .footer-list .footer-list-item .footer-list-item-link:hover {
+      color: black; }
+
+/*# sourceMappingURL=style.css.map */

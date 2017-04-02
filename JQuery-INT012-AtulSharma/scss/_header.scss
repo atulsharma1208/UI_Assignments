@@ -1,0 +1,66 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana;
+}
+
+.nav {
+	background-color: black;
+
+	.nav-bar {
+		display: flex;
+		height: 50px;
+
+		.nav-bar-logo {
+			background: url(images/appdirect_logo.png) no-repeat;
+			height: 16px;
+			width: 20px;
+			margin-left: 160px;
+			padding: 15px 2px 0px 8px;
+			margin-top: 10px;
+		}
+	}
+}
+
+.nav-bar-primary {
+	display: flex;
+	list-style: none;
+	align-items: center;
+
+	.nav-bar-primary-item {
+		color: #9E9E9E;
+		margin-left: 26px;
+
+		&:hover {
+			background-color: #3E3B37;
+			padding: 16px 7px 15px 7px;
+		}
+
+		.nav-bar-primary-item-link {
+			text-decoration: none;
+			color: #9E9E9E;
+		}
+	}
+}
+
+.nav-bar-secondary {
+	display: flex;
+	margin-left: 600px;
+	list-style: none;
+	align-items: center;
+
+	.nav-bar-secondary-item {
+		text-decoration: none;
+		margin-left: 30px;
+
+		&:hover {
+			background-color: #3E3B37;
+			padding: 16px 7px 15px 7px;
+		}
+
+		.nav-bar-secondary-item-link {
+			color: #9E9E9E;
+			text-decoration: none;
+		}
+	}
+}
